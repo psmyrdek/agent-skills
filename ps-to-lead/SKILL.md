@@ -62,7 +62,8 @@ Sentences 3 and 4 may merge when the number *is* the punchline (`Wynik? Wszyscy 
 
 - **Polish**, professional-conversational, **present tense**, **active voice**.
 - **Organization is the subject**: "Specific Labs zbudowało…", "Cursor eksperymentuje…", "Cognition Labs…". Never "autorzy artykułu" or "w artykule czytamy".
-- **No first person**, no "my", no reader address, no CTA, no "kliknij/sprawdź/przeczytaj", no emoji, no hashtags, no link text.
+- **No first person**, no "my", no CTA, no "kliknij/sprawdź/przeczytaj", no emoji, no hashtags, no link text.
+- **Reader address only in sentence 1.** A direct second-person question is allowed as the framing sentence when it names the reader's actual problem: "Korzystasz z techniki LLM-as-a-Judge, ale nie wiesz, na ile zaufać wynikom?". Never in sentences 2-4, and never as a CTA. If sentence 1 is a question, the puenta must be declarative - two question marks in one lead break the rhythm.
 - **Hedge unverified claims**: `zdaje się`, `potrafi`, `około`, `nawet o`, `w benchmarkach`.
 - **Keep English tech terms**, inflected Polish-style with an apostrophe: `codebase'ach`, `software'u`, `harness`, `worker`, `planner`, `frontier`. Don't translate them into clumsy Polish.
 - **Zero hype**: no "rewolucja", "przełom", "game changer", "niesamowite" — unless explicitly negating them ("przełomem nie było stworzenie jednego superagenta, lecz…").
@@ -88,6 +89,16 @@ A lead is short copy, so these are hard constraints, not preferences:
 - **Empty adverbs** to cut unless they carry real emphasis: dosłownie, po prostu, naprawdę, zasadniczo, co ważne, nieuchronnie.
 
 **One sanctioned exception:** the `Wynik?` / `Co ciekawe,` puenta marker. `no-ai-slop` treats self-answered question pairs as a rhetorical setup, but it is an established part of this newsletter's voice (see the reference leads). Use it at most once per lead, and only when the number *is* the punchline.
+
+### The reader-knowledge rule
+
+Write for a reader with **solid general knowledge, not expertise in the source's niche**. They follow AI/dev news, they don't read the papers.
+
+- **Sentence 1 must be understandable without the article.** No term whose meaning is the thing the article explains. Wrong: "Ewaluacja LLM-as-a-judge zakłada, że każdy sędzia myli się niezależnie." Right: "Korzystasz z techniki LLM-as-a-Judge, ale nie wiesz, na ile zaufać wynikom?"
+- **Name the technique, don't presuppose its internals.** The reader may know *that* LLM-as-a-Judge exists; they do not know what the field assumes about error independence. That assumption is the payload, so state it plainly in sentence 2 instead of leaning on it in sentence 1.
+- **Jargon budget: technical terms land in sentences 2-3**, after the frame has bought the reader in. Sentence 1 carries at most one, and only a term they would recognize from a newsletter headline.
+- **Method names are not explanations.** "model Isinga", "expectation-maximization", "Ising-based aggregation" mean nothing to this reader. Describe what the method *does* ("uczy się, którzy sędziowie mylą się razem") and drop the label, unless the label itself is the hook.
+- **The test:** would someone who has heard of the topic but never used it get the first sentence on one read? If not, rewrite it.
 
 ### The selection rule
 
