@@ -65,7 +65,9 @@ Sentences 3 and 4 may merge when the number *is* the punchline (`Wynik? Wszyscy 
 - **No first person**, no "my", no CTA, no "kliknij/sprawdź/przeczytaj", no emoji, no hashtags, no link text.
 - **Reader address only in sentence 1.** A direct second-person question is allowed as the framing sentence when it names the reader's actual problem: "Korzystasz z techniki LLM-as-a-Judge, ale nie wiesz, na ile zaufać wynikom?". Never in sentences 2-4, and never as a CTA. If sentence 1 is a question, the puenta must be declarative - two question marks in one lead break the rhythm.
 - **Hedge unverified claims**: `zdaje się`, `potrafi`, `około`, `nawet o`, `w benchmarkach`.
-- **Keep English tech terms**, inflected Polish-style with an apostrophe: `codebase'ach`, `software'u`, `harness`, `worker`, `planner`, `frontier`. Don't translate them into clumsy Polish.
+- **Keep English tech terms only when there is no natural Polish word**, inflected Polish-style with an apostrophe: `codebase'ach`, `software'u`, `harness`, `worker`, `planner`. Don't translate them into clumsy Polish.
+- **But use the Polish word whenever one exists and reads naturally.** An anglicism with a normal Polish equivalent is an error, not style: `distillation` → `destylacja`, `benchmark score` → `wynik`, `latency` → `opóźnienie`, `deployment` → `wdrożenie`, `dataset` → `zbiór danych`, `throughput` → `przepustowość`. Check every English noun in the draft: if a Pole writing about tech would say it in Polish, write it in Polish.
+- **`frontier` as a noun modifier needs unpacking.** `laboratoria frontier` is not Polish. Write `laboratoria tworzące topowe modele AI` or `czołowe laby`. The established forms `model frontier` and `frontier AI` stay (see the reference leads), because there the reader already has the model in mind.
 - **Zero hype**: no "rewolucja", "przełom", "game changer", "niesamowite" — unless explicitly negating them ("przełomem nie było stworzenie jednego superagenta, lecz…").
 - Use typographic apostrophes (`'`) and Polish quotation marks (`„…"`) as in the references.
 
