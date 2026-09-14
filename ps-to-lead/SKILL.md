@@ -68,6 +68,27 @@ Sentences 3 and 4 may merge when the number *is* the punchline (`Wynik? Wszyscy 
 - **Zero hype**: no "rewolucja", "przełom", "game changer", "niesamowite" — unless explicitly negating them ("przełomem nie było stworzenie jednego superagenta, lecz…").
 - Use typographic apostrophes (`'`) and Polish quotation marks (`„…"`) as in the references.
 
+### Anti-slop rules (z `no-ai-slop`)
+
+A lead is short copy, so these are hard constraints, not preferences:
+
+- **Zero em dashes.** In short copy use none. Commas, periods, or a colon before a list do the job.
+- **No binary contrasts.** "To nie X, to Y", "Pytanie nie brzmi X, lecz Y", "Nie tylko X, ale Y". State Y directly.
+- **No faux-insight setups.** "Czego większość nie zauważa", "O czym nikt nie mówi", "Tego wszyscy nie doceniają". Cut the setup, let the claim stand alone.
+- **No colon reveals.** A noun phrase, colon, then a dramatic lowercase reveal ("Szczegół, który decyduje: osobny agent ocenia wynik"). Write it as a plain sentence. Colons are fine for lists and enumerations, as in the reference leads.
+- **No importance puffery.** "Kamień milowy", "przełomowy moment", "umacnia pozycję", "odgrywa kluczową rolę". State the fact and let the number speak.
+- **No superficial `-ing` analysis.** Polish equivalents: "pokazując tym samym…", "podkreślając zaangażowanie…", "co odzwierciedla trend…". Replace with the concrete consequence.
+- **No weasel attribution.** "Eksperci twierdzą", "badania pokazują", "wiele źródeł sugeruje". Name the organization or cut the claim. Never invent a source.
+- **No fake-profound kicker.** The puenta is a concrete takeaway, never an aphorism or metaphorical mic-drop. If the ending feels cute, end on the hardest fact instead.
+- **No synonym cycling.** If `agent` is the right word, repeat it. Don't rotate to "asystent", "narzędzie", "system" for variety.
+- **No dramatic fragmentation.** "I to wszystko." / "Tyle." / stacked one-word sentences.
+- **Verbs do the work.** "podjął decyzję" → "zdecydował", "ma możliwość" → "potrafi", "służy jako" → "jest".
+- **Protect the specific fact.** Never smooth a number into generic significance: "znacząco poprawia trafność" → "podnosi trafność z 0,82 do 0,91".
+- **Banned words** (and their Polish cousins): rewolucja, przełom, game changer, kamień milowy, transformacja, potęga, wykorzystać potencjał, wzmocnić, usprawnić, solidny, wielowymiarowy, w dzisiejszym świecie, w erze AI, warto zauważyć, na koniec dnia, jeśli chodzi o.
+- **Empty adverbs** to cut unless they carry real emphasis: dosłownie, po prostu, naprawdę, zasadniczo, co ważne, nieuchronnie.
+
+**One sanctioned exception:** the `Wynik?` / `Co ciekawe,` puenta marker. `no-ai-slop` treats self-answered question pairs as a rhetorical setup, but it is an established part of this newsletter's voice (see the reference leads). Use it at most once per lead, and only when the number *is* the punchline.
+
 ### The selection rule
 
 A lead is **not a summary**. Pick the single most surprising delta between what the reader already believes and what the source shows, then organise all four sentences around it. Everything that doesn't serve that delta gets cut.
