@@ -1,10 +1,10 @@
 ---
-name: ps-translate
-description: "Translate text between Polish and English, preserving the author's register, structure and formatting. Direction is detected from the input: Polish in, English out; English in, Polish out. Invoke when the user runs /ps-translate, pastes text asking for the other language, or says przetłumacz, przetłumacz na angielski, przetłumacz na polski, translate this, English version, po angielsku, po polsku. Any other source language translates to English unless the user asks for Polish. Excludes: third languages as a target, rewriting or summarising, code translation between programming languages, and localisation of UI strings with placeholders the user has not explained."
+name: ps-text-translate
+description: "Translate text between Polish and English, preserving the author's register, structure and formatting. Direction is detected from the input: Polish in, English out; English in, Polish out. Invoke when the user runs /ps-text-translate, pastes text asking for the other language, or says przetłumacz, przetłumacz na angielski, przetłumacz na polski, translate this, English version, po angielsku, po polsku. Any other source language translates to English unless the user asks for Polish. Excludes: third languages as a target, rewriting or summarising, code translation between programming languages, and localisation of UI strings with placeholders the user has not explained."
 allowed-tools: Read, Bash
 ---
 
-# /ps-translate — Polish ⇄ English translation
+# /ps-text-translate — Polish ⇄ English translation
 
 Returns **one** translation of the text the user gives you, in the other language. A translation, not an edit: same claims, same structure, same voice.
 
