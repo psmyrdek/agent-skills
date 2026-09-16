@@ -1,6 +1,6 @@
 ---
-name: ps-create-transcript
-description: Transcribe an audio/video file to a Polish SRT and translate it to an English SRT using OpenRouter (or OpenAI directly). Use when the user says "transcribe this", "make subtitles", "create a transcript", "generate SRT", "translate this recording to English", or invokes /ps-create-transcript.
+name: ps-audio-to-transcript
+description: Transcribe an audio/video file to a Polish SRT and translate it to an English SRT using OpenRouter (or OpenAI directly). Use when the user says "transcribe this", "make subtitles", "create a transcript", "generate SRT", "translate this recording to English", or invokes /ps-audio-to-transcript.
 user-invocable: true
 ---
 
@@ -21,7 +21,7 @@ Everything runs through `scripts/transcript.ts` (Bun + ffmpeg, no npm install ne
 ## Run it
 
 ```bash
-bun ~/.claude/skills/ps-create-transcript/scripts/transcript.ts "<file>"
+bun ~/.claude/skills/ps-audio-to-transcript/scripts/transcript.ts "<file>"
 ```
 
 That default does both modes, Polish source, OpenRouter, output next to the input file. Useful flags:

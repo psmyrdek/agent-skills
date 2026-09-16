@@ -1,6 +1,6 @@
 ---
-name: ps-extract-audio
-description: Extract an audio-only MP3 track from a movie/video file using ffmpeg. Use when the user says "extract audio", "pull audio from this video", "get the mp3 from this mov/mp4", or invokes /ps-extract-audio.
+name: ps-video-to-audio
+description: Extract an audio-only MP3 track from a movie/video file using ffmpeg. Use when the user says "extract audio", "pull audio from this video", "get the mp3 from this mov/mp4", or invokes /ps-video-to-audio.
 user-invocable: true
 ---
 

@@ -1,10 +1,10 @@
 ---
-name: ps-to-lead
-description: "Convert a URL into a short Polish newsletter lead (tytuł + 3-4 zdania) in Przemek's established style. Invoke when the user runs /ps-to-lead, or asks to turn a link/article into a newsletter lead, lead do newslettera, krótki wstęp do linku, or newsletter blurb. Excludes: full article writing, translations, social media posts, and English-language copy."
+name: ps-url-to-lead
+description: "Convert a URL into a short Polish newsletter lead (tytuł + 3-4 zdania) in Przemek's established style. Invoke when the user runs /ps-url-to-lead, or asks to turn a link/article into a newsletter lead, lead do newslettera, krótki wstęp do linku, or newsletter blurb. Excludes: full article writing, translations, social media posts, and English-language copy."
 allowed-tools: WebFetch, Read, WebSearch
 ---
 
-# /ps-to-lead — URL → newsletter lead
+# /ps-url-to-lead — URL → newsletter lead
 
 Turns any URL into **one** short Polish newsletter lead matching the reference style below.
 
