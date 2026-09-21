@@ -13,12 +13,23 @@ Personal [Claude Code](https://claude.com/claude-code) skills.
 
 ## Install
 
-Clone into your Claude Code skills directory:
+Via [skills.sh](https://www.skills.sh/):
+
+```bash
+npx skills add psmyrdek/agent-skills
+```
+
+The CLI lists the skills in this repo and lets you pick which to install. Useful flags: `--list` to preview without installing, `--skill ps-url-to-lead` to install just one, `-g` to install globally into `~/.claude/skills/` instead of the current project's `.claude/skills/`, `-a claude-code` to target Claude Code explicitly.
+
+<details>
+<summary>Manual install</summary>
 
 ```bash
 git clone https://github.com/psmyrdek/agent-skills.git /tmp/agent-skills
 cp -R /tmp/agent-skills/ps-* ~/.claude/skills/
 ```
+
+</details>
 
 Restart your session, then invoke with `/ps-url-to-lead <url>`, `/ps-video-to-audio <file>`, `/ps-text-translate <text|file>` `/ps-audio-to-transcript <file>`, `/ps-image-compression <file>` or `/ps-video-fix-fps <file>`.
 
